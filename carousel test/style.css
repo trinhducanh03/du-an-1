@@ -1,0 +1,128 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold
+}
+.logo{
+    font-weight: 600;
+}
+.search{
+    font-weight: bold;
+}
+#nav li a:hover {
+    background: #ff9c00;
+}
+/*--------------banner-------------------*/
+.banner .owl-prev{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    font-size: 50px !important;
+    color: black !important;
+}
+ .banner .owl-next{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    font-size: 50px !important;
+    color: black !important;
+}
+.owl-dots{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*----------------product-------------------*/
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+.old-price{
+    margin-right: 5px;
+    text-decoration: line-through;
+    color: #A0A0A0;
+    font-size: 16px;
+}
+.price{
+    font-size: 18px;
+    color: red;
+}
+.inner-product .owl-next{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    font-size: 50px !important;
+    color: black !important;
+}
+.inner-product .owl-prev{
+    position: absolute;
+    left: 0;
+    top: 40%;
+    font-size: 50px !important;
+    color: black !important;
+}
+.buy-now{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #446084;
+    color: white;
+    padding: 5px 0px;
+    position: absolute;
+    width: 100%;
+    top: 216px;
+}
+.inner-product .item{
+    position: relative;
+}
+
+.product-name{
+    color: #000;
+    text-decoration: none;
+}
+.product-name:hover{
+    color: #ff9c00;
+}
+/*-----------------------find----------------------*/
+.discribe {
+    color: #A0A0A0;
+    text-decoration: none;
+}
+.find-name{
+    color: #000;
+    text-decoration: none;
+}
+.find-name:hover{
+    color:red;
+}
+.col-lg-3 {
+    height: 400px;
+}
+.col-lg-4 {
+    height: 210px;
+}
+.find-name a{ 
+    color: #000;
+    text-decoration: none;
+}
+.find-name a:hover{
+    color: red;
+}
+.find-name i{
+    color: cyan;
+}
+/*-----------------------footer-------------------------*/
+.content-footer a{
+    color: #B0B0B0;
+    text-decoration: none;
+    text-align: center;
+}
+.footer{
+    background-color: #383838;
+}
+.content-footer{
+    text-align: center;
+    padding: 20px;
+}
